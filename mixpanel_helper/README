@@ -1,0 +1,15 @@
+jQuery plugin for adding mixpanel support to click actions, in particular anchor links.
+
+Attached mixpanel click tracking support to all elements matching the jquery selector.
+
+Uses a time delay to make sure the mixpanel action is tracked before linking to the next page.
+
+
+
+Example:
+
+$(".trackAction").mpClickTrack({actionName:"actionName"});
+
+<a class="trackAction" actionName="likeClick" href="#">Like</a>
+
+
